@@ -14,7 +14,6 @@ G.add_edge('Horana', 'Kalutara', weight=15)
 G.add_edge('Kalutara', 'Colombo', weight=50)
 G.add_edge('Horana', 'Colombo', weight=40)
 
-# Draw Graph
 pos = nx.spring_layout(G)
 nx.draw(G, pos, with_labels=True, node_color='skyblue', node_size=2000, font_size=12)
 labels = nx.get_edge_attributes(G, 'weight')
