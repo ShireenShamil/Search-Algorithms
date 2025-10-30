@@ -1,4 +1,4 @@
-# search_demo.py
+
 
 # ---- Step 1: Import Libraries ----
 import networkx as nx
